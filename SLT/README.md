@@ -1,7 +1,18 @@
 ### SLT setup using LTRC in S4 and load data from DI pipelines
 
 
-Using
+#### Prepare connections and security in ABAP system
+
+See SAP Note: [2831756 - SAP Data Hub/ Data Intelligence ABAP Integration - Security Settings](https://launchpad.support.sap.com/#/notes/2831756)  
+The access to ABAP operators (standard and custom), ABAP meta data or data stored in tables, views, CDS views, ODP (availability depending on the connected backend) or others is protected by a whitelisting and authorization concept for security reasons.
+
+If the whitelisting is not maintained properly, or the authorizations are not assigned, the respective request from SAP Data Intelligence to the ABAP-based remote system will fail.
+
+In particular, you would face the following issues:
+* You cannot use your ABAP operators within SAP Data Intelligence.
+* You cannot browse ABAP meta data.
+* You cannot preview ABAP data.
+
 
 #### Prepare the source system (ABAP system)
 First of all we will logon to the SAP Business Suite system to prepare SLT. Before we can communicate from our SAP Data Hub pipeline with SLT, we need to have a SLT Configuration in place (which you can imagine like a project entity inside SLT, representing basically a combination of a source system connection and a target system connection).
