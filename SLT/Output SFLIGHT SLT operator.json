@@ -1,0 +1,57 @@
+{"ABAP":{"Fields":[{"Decimals":0,"Kind":"C","Length":3,"Name":"MANDT","Type":""},  
+                   {"Decimals":0,"Kind":"C","Length":3,"Name":"CARRID","Type":""},  
+                   {"Decimals":0,"Kind":"N","Length":4,"Name":"CONNID","Type":""},  
+                   {"Decimals":0,"Kind":"D","Length":16,"Name":"FLDATE","Type":""},
+                   {"Decimals":2,"Kind":"P","Length":8,"Name":"PRICE","Type":""},  
+                   {"Decimals":0,"Kind":"C","Length":5,"Name":"CURRENCY","Type":""},  
+                   {"Decimals":0,"Kind":"C","Length":10,"Name":"PLANETYPE","Type":""},  
+                   {"Decimals":0,"Kind":"I","Length":4,"Name":"SEATSMAX","Type":""},  
+                   {"Decimals":0,"Kind":"I","Length":4,"Name":"SEATSOCC","Type":""},  
+                   {"Decimals":2,"Kind":"P","Length":9,"Name":"PAYMENTSUM","Type":""},  
+                   {"Decimals":0,"Kind":"I","Length":4,"Name":"SEATSMAX_B","Type":""},  
+                   {"Decimals":0,"Kind":"I","Length":4,"Name":"SEATSOCC_B","Type":""},  
+                   {"Decimals":0,"Kind":"I","Length":4,"Name":"SEATSMAX_F","Type":""},  
+                   {"Decimals":0,"Kind":"I","Length":4,"Name":"SEATSOCC_F","Type":""},  
+                   {"Decimals":0,"Kind":"C","Length":128,"Name":"TABLE_NAME","Type":"DMC_DB_TABNAME"},  
+                   {"Decimals":0,"Kind":"C","Length":1,"Name":"IUUC_OPERATION","Type":"IUUC_OPERATION"}  
+                  ],
+         "Header":{},  
+         "Kind":"Table"},  
+ "message.batchIndex":0,  
+ "metadata":[{"Field":{"ABAPLEN":"000003","ABAPTYPE":"CLNT","COLUMNNAME":"MANDT","DECIMALS":"000000","KEY":"X","NOTNULL":"X","OUTPUTLEN":"000003"}},  
+             {"Field":{"ABAPLEN":"000003","ABAPTYPE":"CHAR","COLUMNNAME":"CARRID","DECIMALS":"000000","KEY":"X","NOTNULL":"X","OUTPUTLEN":"000003"}},  
+             {"Field":{"ABAPLEN":"000004","ABAPTYPE":"NUMC","COLUMNNAME":"CONNID","DECIMALS":"000000","KEY":"X","NOTNULL":"X","OUTPUTLEN":"000004"}},  
+             {"Field":{"ABAPLEN":"000008","ABAPTYPE":"DATS","COLUMNNAME":"FLDATE","DECIMALS":"000000","KEY":"X","NOTNULL":"X","OUTPUTLEN":"000010"}},  
+             {"Field":{"ABAPLEN":"000015","ABAPTYPE":"CURR","COLUMNNAME":"PRICE","DECIMALS":"000002","KEY":"","NOTNULL":"X","OUTPUTLEN":"000020"}},  
+             {"Field":{"ABAPLEN":"000005","ABAPTYPE":"CUKY","COLUMNNAME":"CURRENCY","DECIMALS":"000000","KEY":"","NOTNULL":"X","OUTPUTLEN":"000005"}},  
+             {"Field":{"ABAPLEN":"000010","ABAPTYPE":"CHAR","COLUMNNAME":"PLANETYPE","DECIMALS":"000000","KEY":"","NOTNULL":"X","OUTPUTLEN":"000010"}},  
+             {"Field":{"ABAPLEN":"000010","ABAPTYPE":"INT4","COLUMNNAME":"SEATSMAX","DECIMALS":"000000","KEY":"","NOTNULL":"X","OUTPUTLEN":"000010"}},  
+             {"Field":{"ABAPLEN":"000010","ABAPTYPE":"INT4","COLUMNNAME":"SEATSOCC","DECIMALS":"000000","KEY":"","NOTNULL":"X","OUTPUTLEN":"000010"}},  
+             {"Field":{"ABAPLEN":"000017","ABAPTYPE":"CURR","COLUMNNAME":"PAYMENTSUM","DECIMALS":"000002","KEY":"","NOTNULL":"X","OUTPUTLEN":"000022"}},  
+             {"Field":{"ABAPLEN":"000010","ABAPTYPE":"INT4","COLUMNNAME":"SEATSMAX_B","DECIMALS":"000000","KEY":"","NOTNULL":"X","OUTPUTLEN":"000010"}},  
+             {"Field":{"ABAPLEN":"000010","ABAPTYPE":"INT4","COLUMNNAME":"SEATSOCC_B","DECIMALS":"000000","KEY":"","NOTNULL":"X","OUTPUTLEN":"000010"}},  
+             {"Field":{"ABAPLEN":"000010","ABAPTYPE":"INT4","COLUMNNAME":"SEATSMAX_F","DECIMALS":"000000","KEY":"","NOTNULL":"X","OUTPUTLEN":"000010"}},  
+             {"Field":{"ABAPLEN":"000010","ABAPTYPE":"INT4","COLUMNNAME":"SEATSOCC_F","DECIMALS":"000000","KEY":"","NOTNULL":"X","OUTPUTLEN":"000010"}}  
+            ]  
+}
+
+000,AC,820,2002-12-20,1222.00,CAD,A330-300,320,12,0.00,20,1,0,0,SFLIGHT,
+000,AF,820,2002-12-23,2222.00,EUR,A330-300,320,2,0.00,20,1,0,0,SFLIGHT,
+000,LH,400,1995-02-28,899.00,DEM,A319,350,3,2639.00,0,0,0,0,SFLIGHT,
+000,LH,454,1995-11-17,1499.00,DEM,A319,350,2,2949.00,0,0,0,0,SFLIGHT,
+000,LH,455,1995-06-06,1090.00,USD,A319,220,1,1499.00,0,0,0,0,SFLIGHT,
+000,LH,3577,1995-04-28,6000.00,LIT,A319,220,1,600.00,0,0,0,0,SFLIGHT,
+000,LH,9981,2002-12-21,222.00,EUR,A330-300,320,12,0.00,20,1,0,0,SFLIGHT,
+000,SQ,26,1995-02-28,849.00,DEM,DC-10-10,380,2,1684.00,0,0,0,0,SFLIGHT,
+100,AA,17,2018-09-27,422.94,USD,747-400,385,366,187849.04,31,30,21,19,SFLIGHT,
+100,AA,17,2018-10-29,422.94,USD,747-400,385,372,191816.15,31,30,21,20,SFLIGHT,
+100,AA,17,2018-11-30,422.94,USD,747-400,385,374,192700.08,31,29,21,21,SFLIGHT,
+100,AA,17,2019-01-01,422.94,USD,747-400,385,370,191203.01,31,30,21,20,SFLIGHT,
+100,AA,17,2019-02-02,422.94,USD,747-400,385,373,193994.41,31,31,21,21,SFLIGHT,
+100,AA,17,2019-03-06,4...[additional 27735 bytes truncated]
+
+
+{"ABAP":{"Header":{"Decimals":0,"Fieldname":"","Kind":"C","Length":1,"Type":"CHAR1"},"Kind":"Element"},  
+ "message.batchIndex":1,"message.lastBatch":true  
+}
+
