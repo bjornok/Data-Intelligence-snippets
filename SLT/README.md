@@ -11,7 +11,7 @@ First of all we will logon to the SAP Business Suite system to prepare SLT. Befo
   ![](/SLT/2_createSltConfig.png)
 1. Provide a SLT Configuration Name, for instance “SLT_DEMO” and click “next”.
   ![](/SLT/3_nameConfig.png)
-1. Specify the source system connection, in our case RFC Connection equals none (as we like to load data out of the same system, that also SLT is running on). Click “next”.
+1. Specify the source system connection, in our case RFC Connection equals none (as we like to load data out of the same system, that also SLT is running on). Click "next".
   ![](/SLT/4_specifySourceConnection.png)
 1. Specify the target system connection to SAP Data Hub or SAP Data Intelligence. Therefore choose option “Others” and specify “SAP Data Hub / SAP Data Intelligence”.
   ![](/SLT/5_specify_target.png)
