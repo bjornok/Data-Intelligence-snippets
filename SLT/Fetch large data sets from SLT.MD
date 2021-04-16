@@ -7,7 +7,7 @@ Currently there is no direct provision in the SAP Data Intelligence SLT Operator
 Inspired by SAP blog [SAP Data Intelligence : SLT Replication to Azure Data Lake with file size limit](https://blogs.sap.com/2021/02/19/sap-data-intelligence-slt-replication-to-azure-data-lake-with-file-size-limit/)
 
 
-##### Creating a custom operator  
+#### Creating a custom operator  
 
   ![bilde1](img/2021-02-16_19-48-12.png)  
 * Generated the counter based on timestamp (Date:YYYYMMDD and time: HHMM) and file size.
