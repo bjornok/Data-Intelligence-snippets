@@ -15,6 +15,7 @@ In particular, you would face the following issues:
 
 Follow the steps in this excellent blog [How To Integrate SAP Data Intelligence and SAP S/4HANA AnyPremise](https://blogs.sap.com/2020/05/27/how-to-integrate-sap-data-intelligence-and-sap-s-4hana-anypremise/)  
 
+Additional resouce is SAP Note: [2835207 - ABAP connection type for SAP Data Intelligence](https://launchpad.support.sap.com/#/notes/2835207)
 
 
 #### Prepare the source system (ABAP system)
