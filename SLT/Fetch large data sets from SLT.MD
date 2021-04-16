@@ -1,7 +1,8 @@
 ### Tutorial to fetch data in chunks from an SLT Initial load
 
 For a customer scenario, we were supposed to replicate data from Customer **ECC** using ABAP System Landscape Transformation (SLT) Connector to Azure Data Lake Storage (ADLS Gen 2) filesystem using **SAP Data Intelligence Cloud 3.1-2010**.  
-The Customer requirement was to have the multiple csv files divided based on particular timestamp (YYYYMMDD_HHMM) and size along with Header Information. Currently there is no direct provision in the SAP Data Intelligence SLT Operator to generate multiple csv files based on timestamp (YYYYMMDD_HHMM) and along with headers.
+The Customer requirement was to have the multiple csv files divided based on particular timestamp (YYYYMMDD_HHMM) and size along with Header Information.  
+Currently there is no direct provision in the SAP Data Intelligence SLT Operator to generate multiple csv files based on timestamp (YYYYMMDD_HHMM) and along with headers.
 
 Inspired by SAP blog [SAP Data Intelligence : SLT Replication to Azure Data Lake with file size limit](https://blogs.sap.com/2021/02/19/sap-data-intelligence-slt-replication-to-azure-data-lake-with-file-size-limit/)
 
