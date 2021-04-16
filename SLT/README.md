@@ -13,6 +13,9 @@ In particular, you would face the following issues:
 * You cannot browse ABAP meta data.
 * You cannot preview ABAP data.
 
+Follow the steps in this excellent blog [How To Integrate SAP Data Intelligence and SAP S/4HANA AnyPremise](https://blogs.sap.com/2020/05/27/how-to-integrate-sap-data-intelligence-and-sap-s-4hana-anypremise/)  
+
+
 
 #### Prepare the source system (ABAP system)
 First of all we will logon to the SAP Business Suite system to prepare SLT. Before we can communicate from our SAP Data Hub pipeline with SLT, we need to have a SLT Configuration in place (which you can imagine like a project entity inside SLT, representing basically a combination of a source system connection and a target system connection).
