@@ -18,6 +18,8 @@ First of all we will logon to the SAP Business Suite system to prepare SLT. Befo
 1. Define the SLT Job Settings. If you plan just a simple test of replicating a single table to SAP Data Hub, it is fine to provide one job for “Data Transfer Jobs” and as well for “Calculation Jobs”.
   ![](/SLT/6_JobSettings.png)
 1. Click “next” and then “create”.
+
 Note down the **Mass Transfer ID**, that has been generated. This **ID** uniquely identifies the SLT Configuration and is required later for the configuration of the SLT Connector operator.
+
 
 
